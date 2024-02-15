@@ -1,0 +1,58 @@
+*{
+    text-decoration: underline;
+}
+/* h3{
+    color: rgb(212, 255, 0);
+    background-color: black;
+} */
+p{
+    background-color: rgb(102, 102, 102);
+}
+h3,
+h4{
+    color: rgb(212, 255, 0);
+    background-color: black;
+}
+/* DRY DONT REPEAT YOURSELF */
+
+h4 {
+    color: #00ffea;
+}
+span{
+    color: blueviolet;
+}
+p span{
+    color: rgb(23, 227, 23);
+}
+header nav a{
+    background-color: yellow;
+}
+#bottom{
+    background-color: purple; 
+    color: white;
+}.text-card{
+    background-color: blue;
+    color: yellow;
+}
+.big{
+    font-size: 20px;
+}
+.text-card.big{
+    font-size: 20px;
+}
+ul li:first-child{
+    background-color: yellow;
+}
+ul li:last-child {
+    background-color: rgb(219, 36, 121);
+}
+ul li:nth-child(3){
+    background-color: green;
+}
+/* Поганий варінт неймінгу
+.green-button{
+    background-color: rgb(144, 10, 154);
+} */
+.button-order{
+    background-color: red;
+}
