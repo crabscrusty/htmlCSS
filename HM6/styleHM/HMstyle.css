@@ -1,0 +1,112 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    background-color: #F6F5F5;
+}
+.container{
+    width: 360px;
+    margin: 100px auto;
+    border-radius: 20px;
+    background-color: #FFF;
+    padding: 56px 20px 91px 20px;
+}
+button{
+    border: none;
+    background-color: #FFF;
+} 
+button:hover{
+    border: 1px solid rgb(72, 72, 131);
+}
+h1 {
+    margin-bottom: 17px;
+    font-size: 32px;
+}
+.search{
+    width: 316px;
+    height: 44px;
+    border-radius: 12px;
+    background: #efefef;
+    border: transparent;
+    padding: 15px;
+}
+form{
+    width: 316px;
+    height: 44px;
+    border-radius: 12px;
+    background: #EFEFEF;
+    
+}
+.menu-items{
+    padding: 0 4px;
+
+}
+.position-img{
+    width: 74px;
+    height: 74px;
+    border-radius: 12px;
+    background-color: #EFEFEF;
+}
+.menu-items h4{
+    color: #C4C4C4;
+}
+.menu-position{
+    display: inline-block;
+    width: 74px;
+    text-align: center;
+    padding-top: 29px;
+    margin: 10px;
+}
+.food-hover:hover{
+    background-color: #efefef;
+}
+h2 {
+    margin-top: 32px;
+    margin-bottom: 26px;
+}
+.burger{
+    width: 316px;
+    height: 88px;
+    border-radius: 10px;
+    background: #fff;
+    box-shadow: 0px 0px 4px 0px #e5e5e5;
+}
+.burger:hover{
+    background-color: #efefef;
+}
+.info{
+    display: inline-block;
+    vertical-align: top;
+}
+.big-mac{
+    display: inline-block;
+    width: 70px;
+    height: 60px;
+    margin: 12px 22px 12px 22px;
+}
+.info {
+    display: inline-block;
+    vertical-align: top;
+}
+.kfc{
+    display: inline-block;
+    width: 70px;
+    height: 60px;
+    margin: 12px 22px 12px 22px;
+}
+.fish{
+    display: inline-block;
+    width: 70px;
+    height: 60px;
+    margin: 12px 22px 12px 22px;
+}
+.burger{
+    margin: 12px;
+}
+.price {
+    color: #d62828;
+}
+.burger-section :nth-child(3){
+    margin-top: 12px;
+    margin-bottom: 12px;
+}
