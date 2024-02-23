@@ -1,20 +1,34 @@
 *{
     box-sizing: border-box;
 }
-/* body{ 
+body{ 
     font-family: "Inter", sans-serif;
-} */
- @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
-
-body{
     margin: 0;
 }
+/* @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+
+body{
+    font-family: "Geologica", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: <weight>;
+        font-style: normal;
+        font-variation-settings:
+            "slnt" 0,
+            "CRSV" 0,
+            "SHRP" 0;
+} */
 .container{
     /* width: 400px; */
     margin: 100px auto;
     background-color: lightcoral;
     text-align: center;
     padding: 50px;
-    font-weight: 900;
+    font-weight: 500;
     line-height: 1.5;
 }
+/* @font-face{
+    font-family: "My font";
+    src: url("/fonts/OpenSans-webfont.woff2") format("woff2"),
+    url("/fonts/OpenSans-webfont.woff2") format("woff2");
+} */
+/* додавання кастомних шрифтів */
