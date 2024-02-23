@@ -43,28 +43,44 @@ form{
     background: #EFEFEF;
     
 }
-.menu-items{
-    padding: 0 4px;
-
+.menu-items {
+    padding: 29px 4px 0px 4px;
 }
-.position-img{
+
+.position-img {
     width: 74px;
     height: 74px;
     border-radius: 12px;
     background-color: #EFEFEF;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
-.menu-items h4{
+
+.position-title {
     color: #C4C4C4;
+    padding: 8px 0 0 0;
+    font-size: 16px;
+    font-weight: 500;
 }
-.menu-position{
+
+.menu-position {
     display: inline-block;
-    width: 74px;
+    margin-right: 24px;
     text-align: center;
-    padding-top: 29px;
-    margin: 10px;
+    cursor: pointer;
 }
-.food-hover:hover{
-    background-color: #efefef;
+
+.menu-position:last-child {
+    margin-right: 0;
+}
+
+.menu-position:hover .position-img {
+    background-color: #EAE2B7;
+}
+
+.menu-position:hover .position-title {
+    color: black;
 }
 h2 {
     margin-top: 32px;
@@ -132,4 +148,9 @@ h2 {
 .burger-section :nth-child(3){
     margin-top: 12px;
     margin-bottom: 12px;
+    
+}
+.burger-section{
+    padding-top: 32px;
+    padding-bottom: 91px;   
 }
