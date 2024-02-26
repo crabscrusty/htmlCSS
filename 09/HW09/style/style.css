@@ -1,0 +1,82 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+}
+.container {
+    margin: 0 auto;
+    position: relative;
+    height: 1500px;
+    background-color: rgb(241, 241, 241);
+}
+.position-block {
+    width: 512px;
+    height: 512px;
+    position: absolute;
+    z-index: 1;
+}
+
+.position-block.dia {
+    background-color: black;
+    top: 50px;
+    left: 50px;
+    padding: 128px 101px 109px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.dia img {
+    padding-bottom: 32px;
+}
+
+.dia .flag {
+    padding-top: 32px;
+    border-radius: 6px;
+    width: 80px;
+    height: 60px;
+    background: linear-gradient(180deg, #2137FC 0%, #2137FB 50.01%, #FFD84B 50.04%, #FFD84B 100%);
+}
+.position-block.square {
+    background-color: #FFCE22;
+    z-index: 2;
+    top: 460px;
+    left: 460px;
+}
+
+.square-glyph {
+    position: absolute;
+    top: 144px;
+    left: 54px;
+}
+.position-block.circle {
+    bottom: 90px;
+    right: 110px;
+    background-color: white;
+    border-top: 2px solid #2137FC;
+    border-bottom: 2px solid #2137FC;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    padding: 34px;
+}
+
+.block-circle {
+    border-radius: 444px;
+    background-color: #FFCE22;
+    height: 444px;
+    position: relative;
+}
+
+.circle-bg {
+    border-radius: 222px 222px 0 0;
+    width: 444px;
+}
+
+.circle-glyph {
+    position: absolute;
+    bottom: 28px;
+    left: 44px;
+    height: 204px;
+    width: 358px;
+}
