@@ -12,7 +12,6 @@ body{
 
 h1{
     color: #2D3640;
-    font-family: IBM Plex Sans;
     font-size: 48px;
     font-weight: 400;
     line-height: 80px;
@@ -25,9 +24,10 @@ strong{
 }
 
 p{
+    width: 695px;
     margin: 10px 0 50px;
     color: #2B292D;
-    font-family: IBM Plex Sans;
+
     font-size: 20px;
     line-height: 40px;
 }
@@ -94,7 +94,7 @@ h4{
 
 span{
     color: #4B4F52;
-    font-family: Catamaran;
+    /* font-family: Catamaran; */
     font-size: 16px;
 }
 
