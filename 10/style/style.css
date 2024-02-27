@@ -1,0 +1,147 @@
+@import url('https://fonts.googleapis.com/css2?family=Catamaran:wght@100..900&family=Geologica:wght@100..900&family=IBM+Plex+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap');
+
+body{
+    box-sizing: border-box;
+    background-color: #EAEDF2;
+}
+
+.container {
+    width: 1260px;
+    margin: 0 auto;
+}
+
+h1{
+    color: #2D3640;
+    font-family: IBM Plex Sans;
+    font-size: 48px;
+    font-weight: 400;
+    line-height: 80px;
+    letter-spacing: -0.5px;
+    margin-top: 140px;
+}
+
+strong{
+    font-weight: 600;
+}
+
+p{
+    margin: 10px 0 50px;
+    color: #2B292D;
+    font-family: IBM Plex Sans;
+    font-size: 20px;
+    line-height: 40px;
+}
+
+.block{
+    margin-bottom: 128px;
+}
+
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.item{
+    width: 295px;
+    height: 470px;
+    background-color: white;
+    float: left;
+    margin-right: 20px;
+    border-radius: 32px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.item:last-child{
+    margin-right: 0;
+}
+
+.item-liner{
+    width: 120px;
+    height: 120px;
+    background-color: #f2f0ff;
+    margin-top: 58px;
+    border-radius: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.item-img{
+    width: 114px;
+    height: 114px;
+    overflow: hidden;
+    border-radius: 60px;
+}
+
+.item-img img{
+    height: inherit;
+    width: 100%;
+}
+
+h4{
+    color: #2D3640;
+    text-align: center;
+    font-family: Catamaran;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: -0.625px;
+    margin-top: 36px;
+}
+
+span{
+    color: #4B4F52;
+    font-family: Catamaran;
+    font-size: 16px;
+}
+
+.item-skills{
+    margin-top: 33px;
+    display: flex;
+    align-items: center;
+}
+
+.skill{
+    width: 50px;
+    height: 50px;
+    border-radius: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 7.5px;
+}
+
+.skill-VueJs{
+    background: #41B883;
+}
+
+.skill-Angular{
+    background-color: #34474F;
+}
+
+.skill-Flutter{
+    background-color: #202124;
+}
+
+.skill-React{
+    background: #61DAFB;
+}
+
+.skill-Java{
+    background-color: #D63033;
+}
+
+.skill-ReactNative{
+    background-color: #0AA9D7;
+}
+
+.skill-Html{
+    background-color: #E44E25;
+}
+
+.skill-Css{
+    background-color: #1073BB;
+}
