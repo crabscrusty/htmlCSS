@@ -27,7 +27,6 @@ p{
     width: 695px;
     margin: 10px 0 50px;
     color: #2B292D;
-
     font-size: 20px;
     line-height: 40px;
 }
@@ -56,6 +55,10 @@ p{
 
 .item:last-child{
     margin-right: 0;
+}
+
+.item:hover{
+    background-color: #f1e4e4;
 }
 
 .item-liner{
