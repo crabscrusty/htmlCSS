@@ -10,7 +10,8 @@ body{
     background-size: 100%;
     font-family: 'Inter', sans-serif;
     background-attachment: fixed;
-    color: white
+    color: white;
+    padding: 2.4% 0 2.8% 2%;
 }
 .container{
     width: 96%;
