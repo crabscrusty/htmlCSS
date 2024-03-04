@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;800&display=swap');
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+    height: auto;
+    background-image: url("../img/Rectangle\ 1.png");
+    background-repeat: repeat;
+    background-size: 100%;
+    font-family: 'Inter', sans-serif;
+    background-attachment: fixed;
+    color: white
+}
+.container{
+    width: 96%;
+    margin: 0 auto;
+}
+.block{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.header-logo, .header-search{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
