@@ -2,7 +2,7 @@
 *{
     box-sizing: border-box;
 }
-body{
+body {
     margin: 0;
     height: auto;
     background-image: url("../img/Rectangle\ 1.png");
@@ -13,18 +13,502 @@ body{
     color: white;
     padding: 2.4% 0 2.8% 2%;
 }
-.container{
+
+.container {
     width: 96%;
     margin: 0 auto;
 }
-.block{
+
+.block {
     display: flex;
     align-items: center;
     justify-content: space-between;
     flex-wrap: wrap;
 }
-.header-logo, .header-search{
+
+/* HEADER */
+
+.header-search,
+.header-logo {
     display: flex;
     flex-wrap: wrap;
     align-items: center;
 }
+
+.logo {
+    margin-right: 16px;
+}
+.logo img:hover {
+    opacity: 0.7;
+}
+.presentation {
+    display: flex;
+    align-items: center;
+}
+.presentation p{
+    color: #C8C8C8;
+    font-family: "Kyiv*Type Titling";
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+.search-input {
+    background: none;
+    border: none;
+    border-bottom: 2px solid #f4f4f4;
+    height: 43px;
+    color: white;
+    display: none;
+}
+
+form {
+    height: 50px;
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: center;
+    justify-content: center;
+    margin-right: 45px;
+}
+
+form:hover>.search-input {
+    display: initial;
+    font-size: 18px;
+}
+
+.search-input::placeholder {
+    color: white;
+    font-size: 18px;
+}
+
+.search-input:focus-visible {
+    outline: none;
+}
+
+.search-button {
+    background-color: rgba(255, 255, 255, 0);
+    border: none;
+    height: inherit;
+    padding: 0;
+}
+
+i.fa-magnifying-glass {
+    color: white;
+    font-size: 42px;
+}
+
+.line::before {
+    content: "|";
+    color: white;
+    font-size: 25px;
+    margin-right: 26px;
+}
+
+/* MAIN */
+
+main {
+    padding-top: 98px;
+}
+
+h1 {
+    font-size: 64px;
+    font-weight: 800;
+    line-height: normal;
+    letter-spacing: 3.52px;
+    padding: 20px 0 30px;
+}
+
+ul {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+li {
+    margin-right: 16px;
+    display: flex;
+    align-items: center;
+}
+
+li::after {
+    content: "|";
+    color: white;
+    font-size: 26px;
+    margin-left: 16px;
+}
+
+.film-details>ul>li::after {
+    font-size: 18px;
+}
+
+.film-genre>ul>li:last-child::after,
+.film-details>ul>li:last-child::after {
+    margin-left: 0;
+    content: none;
+}
+
+.film-genre>ul>li>a {
+    color: #FFF;
+    font-size: 32px;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.film-description {
+    color: #A7A6A6;
+    font-size: 24px;
+    max-width: 864px;
+    padding: 32px 0 28px;
+}
+
+.film-details>ul>li>a {
+    color: #FFF;
+    font-size: 30px;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.film-details>ul>li>a>span {
+    color: #A7A6A6;
+    font-size: 29px;
+    font-weight: 400;
+}
+
+.film-rating>i {
+    font-size: 32px;
+    margin: 0 7px;
+}
+
+.film-rating>i:first-child {
+    margin-left: 0;
+}
+
+.film-rating>i.fa-solid {
+    color: #FFEA2B;
+}
+
+.film-watch {
+    padding: 54px 0;
+}
+
+.film-watch>button {
+    width: 272px;
+    height: 64px;
+    color: #FFF;
+    font-family: Inter;
+    font-size: 22px;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+}
+
+button>i {
+    padding-left: 8px;
+}
+
+.film-watch>button:first-child {
+    background-color: #D40D1F;
+    margin-right: 50px;
+}
+
+.film-watch>button:last-child {
+    border: 3px solid #FFF;
+    background: none;
+}
+
+.film-watch>button:last-child:hover {
+    backdrop-filter: brightness(0.5);
+}
+
+.film-popular {
+    max-width: 915px;
+}
+
+.popular-title {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    padding-bottom: 32px;
+}
+
+.slider {
+    height: 34px;
+}
+
+.slider>button {
+    width: 32px;
+    height: 32px;
+    color: #A7A6A6;
+    background: none;
+    border-radius: 100%;
+    border: 1.8px solid #A7A6A6;
+    padding: 0;
+    cursor: pointer;
+}
+
+button>.fa-chevron-left,
+button>.fa-chevron-right {
+    padding: 0;
+}
+
+.slider>button:hover {
+    width: 34px;
+    height: 34px;
+    color: #FFF;
+    border-color: #FFF;
+}
+
+.slider>button:first-child {
+    margin-right: 30px;
+}
+
+h5 {
+    font-size: 22px;
+    font-weight: 800;
+    letter-spacing: 2.97px;
+}
+
+.popular-episodes {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.popular-episodes>div {
+    padding: 0 10px 10px 0;
+}
+
+.popular-episodes>div:last-child {
+    padding-right: 0;
+}
+
+.sticker {
+    background-color: rgba(255, 255, 255, 0.49);
+    width: 174px;
+    height: 66px;
+    display: flex;
+    align-items: center;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    position: fixed;
+    bottom: 100px;
+    right: 0;
+}
+
+.sticker>div {
+    background-color: #D40D1F;
+    width: 33px;
+    height: 66px;
+}
+
+.sticker>span {
+    margin-left: 26px;
+    font-size: 24px;
+    font-weight: 500;
+}
+
+
+@media (max-width: 1160px) {
+    .sticker {
+        bottom: 44px;
+        width: 80px;
+        height: 40px;
+    }
+
+    .sticker>div {
+        width: 14px;
+        height: 40px;
+    }
+
+    .sticker>span {
+        font-size: 16px;
+        margin-left: 16px;
+    }
+}
+
+@media (max-width: 1060px) {
+    main {
+        max-width: 90%;
+    }
+}
+
+@media (max-width: 936px) {
+    form {
+        height: 60px;
+    }
+
+    form>button>i.fa-magnifying-glass {
+        font-size: 34px;
+    }
+
+    .header-user>a>img {
+        width: 60px;
+        height: 60px;
+    }
+
+    main {
+        padding-top: 60px;
+    }
+
+    .popular-episodes {
+        justify-content: flex-start;
+    }
+}
+
+@media (max-width: 860px) {
+    .header-logo {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .line::before {
+        display: none;
+    }
+
+    main {
+        max-width: 85%;
+    }
+
+    form {
+        height: 30px;
+    }
+
+    form>button>i.fa-magnifying-glass {
+        font-size: 24px;
+    }
+
+    .search-input {
+        height: 30px;
+    }
+
+    .search-input::placeholder {
+        font-size: 16px;
+    }
+
+    .header-user>a>img {
+        width: 50px;
+        height: 50px;
+    }
+
+    h1 {
+        font-size: 56px;
+    }
+
+    .film-genre>ul>li>a {
+        font-size: 22px;
+    }
+
+    .film-genre>ul>li::after {
+        font-size: 18px;
+    }
+
+    .film-details>ul>li>a,
+    .film-details>ul>li>a>span,
+    .film-description {
+        font-size: 20px;
+    }
+
+    .film-rating>i {
+        font-size: 24px;
+        margin: 0 2px;
+    }
+
+    .film-watch {
+        padding: 50px 0;
+    }
+
+    .film-watch>button {
+        width: 220px;
+        height: 54px;
+        font-size: 18px;
+    }
+
+    .film-watch>button:first-child {
+        margin-right: 40px;
+    }
+}
+
+@media (max-width: 640px) {
+    form {
+        margin-right: 16px;
+    }
+
+    .search-input {
+        width: 128px;
+    }
+
+    .film-genre>ul>li>a {
+        font-size: 18px;
+    }
+
+    li::after {
+        margin-left: 8px;
+    }
+
+    li {
+        margin-right: 8px;
+    }
+
+    h1 {
+        font-size: 42px;
+    }
+
+    .film-details>ul>li>a,
+    .film-details>ul>li>a>span {
+        font-size: 17px;
+    }
+
+    .film-genre>ul>li::after,
+    .film-details>ul>li::after {
+        font-size: 12px;
+    }
+
+    .film-description {
+        font-size: 16px;
+    }
+
+    .film-rating>i {
+        font-size: 16px;
+    }
+
+    .film-watch {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .film-watch>button:first-child {
+        margin: 0 0 14px 0;
+    }
+
+    .popular-title {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .popular-title>.slider {
+        margin-top: 14px;
+    }
+
+    .popular-episodes>div>a>img {
+        width: 140px;
+    }
+
+    .sticker {
+        bottom: 22px;
+        width: 68px;
+        height: 32px;
+    }
+
+    .sticker>div {
+        width: 14px;
+        height: 32px;
+    }
+
+    .sticker>span {
+        font-size: 14px;
+        margin-left: 12px;
+    }
