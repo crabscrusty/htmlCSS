@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;800&display=swap');
+
 *{
     box-sizing: border-box;
 }
@@ -94,7 +95,7 @@ form:hover>.search-input {
 
 i.fa-magnifying-glass {
     color: white;
-    font-size: 43px;
+    font-size: 33px;
 }
 
 .line::before {
