@@ -137,7 +137,6 @@ li::after {
     font-size: 26px;
     margin-left: 16px;
 }
-
 .film-details>ul>li::after {
     font-size: 18px;
 }
