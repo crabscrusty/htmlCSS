@@ -7,7 +7,7 @@ body {
     margin: 0;
     height: auto;
     background-image: url("../img/Rectangle\ 1.png");
-    background-repeat: repeat;
+    background-repeat: no-repeat;
     background-size: 100%;
     font-family: 'Inter', sans-serif;
     background-attachment: fixed;
