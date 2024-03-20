@@ -1,12 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700;800&display=swap');
 
-
-/*  Розмір вікна : */
-/* ноутбук - default */
-/* планшет iPad mini - 768 x 1024; */
-/* телефон Iphone 14 Pro max - 430 x 932; */
-
-
 * {
     box-sizing: border-box;
     flex-wrap: wrap;
