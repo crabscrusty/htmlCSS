@@ -141,9 +141,12 @@ body {
 }
 
 .first-section {
-    margin: 0 auto;
-    padding-bottom: 6rem;
-    margin: 0 10px 0 10px;
+    // margin: 0 auto;
+    // padding-bottom: 6rem;
+    // margin: 0 10px 0 10px;
+        max-width: 941px;
+        width: 90%;
+        margin: 0 auto;
 }
 
 .first-title {
@@ -248,7 +251,11 @@ body {
 }
 
 .second-section {
-    padding: 1.5rem 0 14.69rem 0;
+    // padding: 1.5rem 0 14.69rem 0;
+        max-width: 941px;
+        width: 90%;
+        margin: 0 auto;
+        padding-top: 50px;
 }
 
 .second-title {
@@ -403,11 +410,13 @@ body {
 
 .footer {
     grid-area: footer;
-
+    background: #141A20;
     .container {
         padding: 20px;
         margin: 0 auto;
-        background: #141A20;
+        max-width: 941px;
+        width: 100%;
+                
 
         .footer__form {
             display: flex;
