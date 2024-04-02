@@ -135,11 +135,6 @@ nav .navbar-nav {
     padding-top: 15px;
 }
 
-.img-flex {
-    display: flex;
-    justify-content: center;
-}
-
 .menu-btn {
     padding: 7px 35px;
     background-color: var(--color1);
